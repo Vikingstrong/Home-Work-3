@@ -229,6 +229,49 @@ header button{
     font-size: 14px;
 }
 
+.section4{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 15px;
+}
+.section4 h1{
+    font-size: 40px;
+}
+.companycont{
+    display: flex;
+    gap: 5px;
+}
+.companybox{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 25px;
+    width: 25%;
+}
+.companybox p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #848C9A;
+}
+.companybox h3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 24px;
+}
+.companybox button{
+    width: 100%;
+    background-color: white;
+    border: 1px solid #D7B18D;
+    border-radius: 10px;
+    padding: 14px;
+    font-size: 20px;
+}
 
 
 
@@ -322,6 +365,17 @@ header button{
         width: 85%;
     }
     .vacansybox2{
+        width: 85%;
+    }
+    .section4 h1{
+        font-size: 24px;
+        align-self: center;
+    }
+    .companycont{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .companybox{
         width: 85%;
     }
 }
