@@ -306,6 +306,28 @@ header button{
     color: white;
 }
 
+.section6{
+    padding: 0 15px;
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+    gap: 10px;
+}
+.section6 span{
+    border: 1px solid #D3D4D6;
+    color: #D3D4D6;
+    font-size: 18px;
+    border-radius: 100%;
+    padding: 5px 10px;
+    text-align: center;
+    margin-right: 10px;
+}
+.section6 hr{
+    width: 7%;
+}
 
 
 
@@ -437,5 +459,17 @@ header button{
     }
     .section5 button{
         width: 45%;
+    }
+    .section6{
+        flex-direction: column;
+        align-items: start;
+        gap: 25px;
+    }
+    .section6 hr{
+        display: none !important;
+    }
+    .section6 p{
+        display: flex;
+        align-items: center;
     }
 }
