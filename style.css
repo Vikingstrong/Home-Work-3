@@ -328,9 +328,59 @@ header button{
 .section6 hr{
     width: 7%;
 }
-
-
-
+.section7{
+    max-width: 1200px;
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #212731;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.section7 h1{
+    font-size: 60px;
+}
+.section7 p{
+    font-size: 24px;
+    color: #FFFFFFCC;
+}
+.section7 h3{
+    display: inline-block;
+    font-size: 30px;
+    background-color: #28303D;
+    padding: 10px 5px;
+    width: 15%;
+    border-radius: 10px;
+}
+.numbbox{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    border-radius: 40px;
+    padding: 25px;
+    color: black;
+    align-items: center;
+    left: 650px;
+    top: 50px;
+}
+.numbbox h1{
+    font-size: 90px;
+}
+.numbbox p{
+    color: black;
+    font-size: 20px;
+}
+.phoneimg{
+    position: absolute;
+    width: 38%;
+    right: 10px;
+    top: 0px;
+}
 
 @media (max-width: 500px) {
     header button{
@@ -450,8 +500,8 @@ header button{
         font-size: 20px;
     }
     .section5 p{
-        width: 45%;
-        font-size: 24px;
+        width: 43%;
+        font-size: 20px;
         text-align: center;
         background-color: #F4F4F5;
         padding: 10px;
@@ -471,5 +521,17 @@ header button{
     .section6 p{
         display: flex;
         align-items: center;
+    }
+    .section7{
+        margin: 10px;
+    }
+    .phoneimg{
+        display: none !important;
+    }
+    .section7 h3{
+        width: 53%;
+    }
+    .numbbox{
+        display: none !important
     }
 }
